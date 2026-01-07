@@ -1,7 +1,6 @@
 
-
+import ExpenseItem from './component/ExpenseItem'
 import './App.css'
-import ExpenseItem from './components/Expenses'
 
 function App() {
   return (
