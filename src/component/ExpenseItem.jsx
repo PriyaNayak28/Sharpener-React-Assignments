@@ -1,11 +1,18 @@
+import './ExpenseItem.css'
+
 function ExpenseItem () {
-   return <>
-    {/* <p>Food - $5</p>
-    <p>Petrol - $20</p>
-    <p>Movie - $10</p> */}
-    <div> Date of Expense - 10/01/2026</div>
-    <div> <p> location - Delhi</p></div>
+   return( 
+   <>
+    <div className='expense-item'>
+    <div>10/01/2026</div>
+    <div className='expense-item__location'>location - Delhi</div>
+    <div className='expense-item__description'>
+        <h2>book</h2>
+        <div className='expense-item__price'>$10</div>
+    </div>
+    </div>
     </>
+    )
 }
 
 export default ExpenseItem
